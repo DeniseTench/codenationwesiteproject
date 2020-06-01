@@ -1,9 +1,9 @@
 $coolBlue: #8ab1f5;
 $darkGrey: #595959;
 $lightGrey: #cccab5; 
-$mintGreen: #81c3ff;
+$mintGreen: #B4D7BF;
 $offWhite: #fffefc;
-$retroYellow: #ffff4d; 
+$retroYellow: #ffd03a; 
 
 a {
     color: $darkGrey;
@@ -78,6 +78,17 @@ h2 {
     color: $mintGreen;
     font-weight: lighter;
     text-align: left;
+
+    a {
+        color: $mintGreen;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $mintGreen;
+        text-decoration: underline;
+    }
+
     }
 
 h3 {
@@ -121,13 +132,82 @@ p {
 }
 
 img {
-        width: 560px;
-        height: auto;
-        padding: 3%;
-        display: center;
-        display: block;
+    width: 560px;
+    height: auto;
+    padding: 3%;
+    display: center;
+    display: block;
     }
 
 .post {
     padding-left: 6%;
+    }
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    font-family: 'Open Sans';
+    color: $offWhite;
+    text-align: center;
+    background: $retroYellow;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-top: 1.5%;
+    padding-right: 2.0%;
+    padding-left: 2.0%;
+    padding-bottom: 20%;
+
+        h4 {
+            color: $offWhite;
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Just Another Hand';
+            font-weight: lighter;
+        }
+
+        p {
+            color: $offWhite;
+            text-align: center;
+            font-size: 15px;
+            font-family: "Open Sans";
+        }
+      }
+
+.logos {
+    width: 350px;
+    height: 175px;        
+    border-radius: 0px;
+    margin-right: 2.0%;
+    margin-bottom: 1.0%;
+    margin-top: none;
+
+    img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 60%;
+    }
+      }
+
+.headshot {
+    img {
+        width: 300px; 
+        height: auto;
+        margin-bottom: 10%;
+        }
+      }
+
+.homepic {
+
+    img {
+    height:310px;
+    width: auto;
+    margin-bottom: 2%;
+      }
+    }
+
+    .container {
+    float: left;
+    margin-left: 6%;
     }
