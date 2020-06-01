@@ -1,0 +1,133 @@
+$coolBlue: #8ab1f5;
+$darkGrey: #595959;
+$lightGrey: #cccab5; 
+$mintGreen: #81c3ff;
+$offWhite: #fffefc;
+$retroYellow: #ffff4d; 
+
+a {
+    color: $darkGrey;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: $retroYellow;
+    text-decoration: none;
+  }
+
+.titles {
+    color: $coolBlue;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.5;
+    }
+
+#nav {
+    
+    li {
+    float: left;
+    padding-right: 1%;
+    padding-left: 0.5%;
+    margin-left: 5%;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 1%;
+    overflow: hidden;
+    background-color: #8ab1f5;
+    font-weight: lighter;
+    font-family: 'Just Another Hand';
+    font-size: 2em;
+    letter-spacing: 0.054em;
+    margin-bottom: 3%;
+    }
+
+    a {
+        color: $offWhite;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $retroYellow;
+        text-decoration: none;
+    }
+
+}
+
+h1 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 5em;
+    color: $coolBlue;
+    font-weight: lighter;
+    text-align: left;
+    }
+
+    ol {
+    font-family: 'Open Sans';
+    color: $darkGrey;
+    text-align: left;
+    line-height: initial;
+    }
+
+h2 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3em;
+    color: $mintGreen;
+    font-weight: lighter;
+    text-align: left;
+    }
+
+h3 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 2.5em;
+    color: $mintGreen;
+    font-weight: lighter;
+    text-align: left;
+
+    a {
+        color: $mintGreen;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $mintGreen;
+        text-decoration: underline;
+    }
+
+}
+
+ul {
+    font-family: 'Open Sans';
+    color: $darkGrey;
+    text-align: left;
+    line-height: initial;
+}
+
+h4 {
+    color: $mintGreen;
+    font-size: 2.0em;
+    font-weight: lighter;
+    text-align: left;
+    }
+
+p {
+    font-family: 'Open Sans';
+    color: $darkGrey;
+    text-align: left;
+    line-height: initial;
+}
+
+img {
+        width: 560px;
+        height: auto;
+        padding: 3%;
+        display: center;
+        display: block;
+    }
+
+.post {
+    padding-left: 6%;
+    }

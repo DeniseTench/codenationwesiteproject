@@ -1,0 +1,100 @@
+a {
+  color: #595959;
+  text-decoration: none; }
+
+a:hover {
+  color: #ffff4d;
+  text-decoration: none; }
+
+.titles {
+  color: #8ab1f5;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.5; }
+
+#nav li {
+  float: left;
+  padding-right: 1%;
+  padding-left: 0.5%;
+  margin-left: 5%; }
+#nav ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #8ab1f5;
+  font-weight: lighter;
+  font-family: 'Just Another Hand';
+  font-size: 2em;
+  letter-spacing: 0.054em;
+  margin-bottom: 3%; }
+#nav a {
+  color: #fffefc;
+  text-decoration: none; }
+#nav a:hover {
+  color: #ffff4d;
+  text-decoration: none; }
+
+h1 {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 5em;
+  color: #8ab1f5;
+  font-weight: lighter;
+  text-align: left; }
+
+ol {
+  font-family: 'Open Sans';
+  color: #595959;
+  text-align: left;
+  line-height: initial; }
+
+h2 {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 3em;
+  color: #81c3ff;
+  font-weight: lighter;
+  text-align: left; }
+
+h3 {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 2.5em;
+  color: #81c3ff;
+  font-weight: lighter;
+  text-align: left; }
+  h3 a {
+    color: #81c3ff;
+    text-decoration: none; }
+  h3 a:hover {
+    color: #81c3ff;
+    text-decoration: underline; }
+
+ul {
+  font-family: 'Open Sans';
+  color: #595959;
+  text-align: left;
+  line-height: initial; }
+
+h4 {
+  color: #81c3ff;
+  font-size: 2.0em;
+  font-weight: lighter;
+  text-align: left; }
+
+p {
+  font-family: 'Open Sans';
+  color: #595959;
+  text-align: left;
+  line-height: initial; }
+
+img {
+  width: 560px;
+  height: auto;
+  padding: 3%;
+  display: center;
+  display: block; }
+
+.post {
+  padding-left: 6%; }
+
+/*# sourceMappingURL=style.css.map */
