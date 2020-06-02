@@ -78,6 +78,7 @@ h2 {
     color: $mintGreen;
     font-weight: lighter;
     text-align: left;
+    line-height: 2.5em;
 
     a {
         color: $mintGreen;
@@ -97,6 +98,7 @@ h3 {
     color: $mintGreen;
     font-weight: lighter;
     text-align: left;
+    line-height: 2.0em;
 
     a {
         color: $mintGreen;
@@ -175,21 +177,6 @@ img {
         }
       }
 
-.logos {
-    width: 350px;
-    height: 175px;        
-    border-radius: 0px;
-    margin-right: 2.0%;
-    margin-bottom: 1.0%;
-    margin-top: none;
-
-    img {
-    width: 100%; 
-    height: auto;
-    margin-bottom: 60%;
-    }
-      }
-
 .headshot {
     img {
         width: 300px; 
@@ -199,15 +186,29 @@ img {
       }
 
 .homepic {
-
     img {
     height:310px;
     width: auto;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
       }
     }
 
-    .container {
+.container {
     float: left;
     margin-left: 6%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    }
+
+.container2 {    
+    img {
+        width: 20%; 
+        height: auto;
+        margin: 0.3%;
+        }
+    }
+
+.possum {
+    width: 80%;
+    height: auto;
     }
