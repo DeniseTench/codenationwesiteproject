@@ -41,7 +41,8 @@ h1 {
   font-size: 5em;
   color: #8ab1f5;
   font-weight: lighter;
-  text-align: left; }
+  text-align: left;
+  line-height: initial; }
 
 ol {
   font-family: 'Open Sans';
@@ -55,7 +56,7 @@ h2 {
   color: #B4D7BF;
   font-weight: lighter;
   text-align: left;
-  line-height: 2.5em; }
+  line-height: initial; }
   h2 a {
     color: #B4D7BF;
     text-decoration: none; }
@@ -69,7 +70,7 @@ h3 {
   color: #B4D7BF;
   font-weight: lighter;
   text-align: left;
-  line-height: 2.0em; }
+  line-height: initial; }
   h3 a {
     color: #B4D7BF;
     text-decoration: none; }
