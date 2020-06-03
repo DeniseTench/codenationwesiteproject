@@ -64,10 +64,12 @@ h2 {
   text-align: left; }
   h2 a {
     color: #B4D7BF;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: lighter; }
   h2 a:hover {
     color: #B4D7BF;
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-weight: lighter; }
 
 h3 {
   font-family: 'Open Sans';
