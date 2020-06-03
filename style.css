@@ -89,6 +89,9 @@ ul {
   color: #595959;
   text-align: left; }
 
+li {
+  line-height: 1.5; }
+
 h4 {
   color: #B4D7BF;
   font-size: 2.0em;
