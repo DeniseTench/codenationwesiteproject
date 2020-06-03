@@ -6,13 +6,15 @@ $offWhite: #fffefc;
 $retroYellow: #ffd03a; 
 
 a {
-    color: $darkGrey;
+    color: $retroYellow;
     text-decoration: none;
+    font-weight: bold;
   }
 
 a:hover {
     color: $retroYellow;
     text-decoration: none;
+    font-weight: bold;
   }
 
 .titles {
@@ -21,6 +23,11 @@ a:hover {
     font-size: 1em;
     font-weight: lighter;
     line-height: 1.5;
+    }
+
+.responsive {
+     max-width: 100%;
+    height: auto;
     }
 
 #nav {
@@ -42,17 +49,19 @@ a:hover {
     font-family: 'Just Another Hand';
     font-size: 2em;
     letter-spacing: 0.054em;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     }
 
     a {
         color: $offWhite;
         text-decoration: none;
+        font-weight: lighter;
     }
 
     a:hover {
         color: $retroYellow;
         text-decoration: none;
+        font-weight: lighter;
     }
 
 }
@@ -91,10 +100,10 @@ h2 {
     }
 
 h3 {
-    font-family: 'Just Another Hand', cursive;
-    font-size: 2.5em;
-    color: $mintGreen;
-    font-weight: lighter;
+    font-family: 'Open Sans';
+    font-size: 1.0em;
+    color: $darkGrey;
+    font-weight: bolder;
     text-align: left;
 
     a {
@@ -126,6 +135,7 @@ p {
     font-family: 'Open Sans';
     color: $darkGrey;
     text-align: left;
+    line-height: 1.5;
 }
 
 img {
@@ -180,30 +190,9 @@ img {
         }
       }
 
-.homepic {
-    img {
-    height:310px;
-    width: auto;
-    margin-bottom: 5%;
-      }
-    }
-
 .container {
     float: left;
     margin-left: 6%;
     margin-right: 2%;
     margin-bottom: 2%;
-    }
-
-.container2 {    
-    img {
-        width: 20%; 
-        height: auto;
-        margin: 0.3%;
-        }
-    }
-
-.possum {
-    width: 80%;
-    height: auto;
     }
