@@ -51,11 +51,6 @@ h1 {
   font-weight: lighter;
   text-align: left; }
 
-ol {
-  font-family: 'Open Sans';
-  color: #595959;
-  text-align: left; }
-
 h2 {
   font-family: 'Just Another Hand', cursive;
   font-size: 3em;
@@ -79,10 +74,18 @@ h3 {
   text-align: left; }
   h3 a {
     color: #B4D7BF;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: lighter; }
   h3 a:hover {
     color: #B4D7BF;
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-weight: lighter; }
+
+h4 {
+  color: #B4D7BF;
+  font-size: 2.0em;
+  font-weight: lighter;
+  text-align: left; }
 
 ul {
   font-family: 'Open Sans';
@@ -92,10 +95,9 @@ ul {
 li {
   line-height: 1.5; }
 
-h4 {
-  color: #B4D7BF;
-  font-size: 2.0em;
-  font-weight: lighter;
+ol {
+  font-family: 'Open Sans';
+  color: #595959;
   text-align: left; }
 
 p {
