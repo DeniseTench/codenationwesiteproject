@@ -154,4 +154,12 @@ img {
   margin-right: 2%;
   margin-bottom: 2%; }
 
+table, th, td {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+  color: #595959; }
+
+th, td {
+  padding: 15px; }
+
 /*# sourceMappingURL=style.css.map */

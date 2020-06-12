@@ -207,3 +207,13 @@ img {
     margin-right: 2%;
     margin-bottom: 2%;
     }
+
+table, th, td {
+        border: 1px solid $darkGrey;
+        border-collapse: collapse;
+        color: $darkGrey
+      }
+
+th, td {
+    padding: 15px;
+}
