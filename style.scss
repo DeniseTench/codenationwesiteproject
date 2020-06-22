@@ -147,6 +147,11 @@ p {
     color: $darkGrey;
     text-align: left;
     line-height: 1.5;
+
+    a {
+        font-family: 'Open Sans';
+        font-color: $retroYellow;
+    }
 }
 
 img {

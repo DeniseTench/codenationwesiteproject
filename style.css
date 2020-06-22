@@ -105,6 +105,9 @@ p {
   color: #595959;
   text-align: left;
   line-height: 1.5; }
+  p a {
+    font-family: 'Open Sans';
+    font-color: #ffd03a; }
 
 img {
   width: 560px;
